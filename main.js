@@ -5,3 +5,10 @@ const add = (num1, num2) => {
 
 let result = add(17, 9)
 console.log(result)
+
+const subtract = (num1, num2) => {
+    const difference = num1 - num2
+    return difference
+}
+result = subtract(90, 21)
+console.log(result)
