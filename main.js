@@ -26,3 +26,10 @@ const multiply = (num1, num2) => {
 }
 result = multiply(262800, 2)
 console.log(result)
+
+const square = (num1) => {
+    const product = num1 *num1
+    return product
+}
+result = square(4)
+console.log(result)
