@@ -12,3 +12,10 @@ const subtract = (num1, num2) => {
 }
 result = subtract(90, 21)
 console.log(result)
+
+const divide = (num1, num2) => {
+    const quotient = num1 / num2
+    return quotient
+}
+result = divide(840, 2)
+console.log(result)
