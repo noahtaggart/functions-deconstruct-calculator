@@ -19,3 +19,10 @@ const divide = (num1, num2) => {
 }
 result = divide(840, 2)
 console.log(result)
+
+const multiply = (num1, num2) => {
+    const product = num1 * num2
+    return product
+}
+result = multiply(262800, 2)
+console.log(result)
